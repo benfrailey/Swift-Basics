@@ -40,7 +40,7 @@ if deposits >= 100000000 {
     print("You are exceedingly wealthy")
 }
 else {
-    print("You are so poor")
+    print("Sorry you are so poor")
 }
 
 var force = mass * acceleration
@@ -69,3 +69,15 @@ default:
 }
 
 print(integral, " is an integral")
+
+for i in 5...10 {
+    print("i = ", i)
+}
+
+var age = 0
+while age < 6 {
+    print("Age = ", age)
+    age += 1
+}
+
+print(greeting, name)
